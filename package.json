@@ -1,0 +1,6 @@
+{
+  "name": "copa-azteca-2027",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "20.x" }
+}

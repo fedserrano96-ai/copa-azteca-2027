@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Copa Azteca 2027 · Field lacrosse in Mexico City</title>
+<meta name="description" content="Mexico's largest lacrosse tournament of the year. Men's field lacrosse in Mexico City, February 13–14, 2027, with teams from the US, Canada, Colombia, Mexico and more.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥍</text></svg>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Copa Azteca 2027 · Mexico City · Feb 13–14">
+<meta property="og:description" content="Mexico's largest lacrosse tournament of the year. Teams from the US, Canada, Colombia, Mexico and more. Register a team or sign up as a free agent.">
+<meta property="og:image" content="/assets/poster1080.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Barlow:wght@400;500;600;700&family=Cinzel:wght@900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --obsidian:#0A0A08; --obsidian-2:#15150F; --gold:#CFA64E; --gold-light:#E4C47E; --jade:#02713E; --jade-bright:#2FA46B; --bone:#ECE9DD;
+  --bg:#FFFFFF; --band-light:#ECE9DD; --surface:#FFFFFF; --ink:#141410; --muted:#55524A; --line:#D9D4C4; --accent:#02713E;
+  --focus:#02713E; --error:#B3261E; --tile-shadow:0 10px 24px rgba(10,10,8,.12);
+  --cond:"Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body:"Barlow", "Helvetica Neue", Arial, sans-serif;
+  --mark:"Cinzel", "Trajan Pro", Georgia, serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F0F0C; --band-light:#1A1A14; --surface:#1C1C15; --ink:#EEEBDD; --muted:#ACA796; --line:#302E24; --accent:#2FA46B;
+    --focus:#E4C47E; --error:#FF8A80; --tile-shadow:0 10px 24px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F0F0C; --band-light:#1A1A14; --surface:#1C1C15; --ink:#EEEBDD; --muted:#ACA796; --line:#302E24; --accent:#2FA46B;
+  --focus:#E4C47E; --error:#FF8A80; --tile-shadow:0 10px 24px rgba(0,0,0,.5);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,video{max-width:100%;display:block}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+
+/* buttons */
+.btn{display:inline-block;font-family:var(--cond);font-weight:800;font-size:1.15rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;
+  background:var(--gold);color:var(--obsidian);padding:.75rem 1.6rem;border:none;border-radius:2px;cursor:pointer;box-shadow:0 5px 0 rgba(0,0,0,.28);transition:transform .08s}
+.btn:hover{background:var(--gold-light)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 rgba(0,0,0,.28)}
+.btn.jade{background:var(--jade);color:#fff}
+.btn.jade:hover{background:#038449}
+.btn.line{background:transparent;color:var(--bone);box-shadow:inset 0 0 0 2px rgba(236,233,221,.7)}
+.btn.line:hover{box-shadow:inset 0 0 0 2px var(--gold);color:var(--gold-light)}
+
+/* header */
+.site-head{position:sticky;top:0;z-index:20;background:var(--obsidian);border-bottom:3px solid var(--gold)}
+.site-head .wrap{display:flex;align-items:center;gap:1.4rem;min-height:62px}
+.mark{font-family:var(--mark);font-weight:900;font-size:1.1rem;letter-spacing:.08em;color:var(--gold);text-decoration:none;white-space:nowrap}
+.nav{display:flex;gap:1.3rem;margin-left:auto}
+.nav a{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--bone);text-decoration:none;font-size:1rem}
+.nav a:hover{color:var(--gold-light)}
+.lang{display:flex;border:1.5px solid rgba(207,166,78,.6);border-radius:2px;overflow:hidden}
+.lang button{all:unset;cursor:pointer;padding:.25rem .65rem;font-family:var(--cond);font-weight:700;font-size:.95rem;color:var(--bone)}
+.lang button[aria-pressed="true"]{background:var(--gold);color:var(--obsidian)}
+.lang button:focus-visible{outline:3px solid var(--gold-light);outline-offset:-3px}
+.site-head .btn{font-size:1rem;padding:.5rem 1rem;box-shadow:0 3px 0 rgba(0,0,0,.4)}
+@media (max-width:900px){.nav{display:none}.lang{margin-left:auto}}
+@media (max-width:420px){.site-head .btn{display:none}}
+
+/* hero with slanted striped edge */
+.hero-wrap{position:relative;background:var(--bg)}
+.hero-wrap .stripe{position:absolute;inset:0;pointer-events:none}
+.hero-wrap .s-jade{background:var(--jade);clip-path:polygon(0 0,100% 0,100% calc(100% - 64px),0 100%)}
+.hero-wrap .s-gold{background:var(--gold);clip-path:polygon(0 0,100% 0,100% calc(100% - 78px),0 calc(100% - 14px))}
+.hero{position:relative;min-height:min(88svh,820px);display:flex;align-items:center;background:var(--obsidian);color:var(--bone);overflow:hidden;
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 92px),0 calc(100% - 28px))}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,8,.82) 0%,rgba(10,10,8,.45) 50%,rgba(10,10,8,.15) 100%)}
+.hero .wrap{position:relative;z-index:2;padding:5rem 0 9rem}
+.kicker{font-family:var(--cond);font-weight:700;font-size:1.2rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 .4rem}
+.hero h1{font-family:var(--cond);font-style:italic;font-weight:800;text-transform:uppercase;line-height:.88;margin:0;font-size:clamp(3.6rem,10vw,8.2rem);letter-spacing:-.005em;text-shadow:0 3px 18px rgba(0,0,0,.4)}
+.when{margin:1.1rem 0 .4rem;font-family:var(--cond);font-weight:700;font-size:clamp(1.4rem,3vw,2rem);color:var(--gold-light);text-transform:uppercase;letter-spacing:.03em}
+.sub{max-width:34rem;margin:0 0 1.8rem;font-size:1.1rem;color:rgba(236,233,221,.9)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.sound{display:inline-flex;gap:.5rem;align-items:center}
+
+/* tiles */
+.tiles{position:relative;z-index:5;margin-top:-56px;display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
+@media (max-width:900px){.tiles{grid-template-columns:repeat(3,1fr);margin-top:-30px}}
+@media (max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}.tile:last-child{grid-column:span 2}}
+@media (max-width:640px){.hero::after{background:linear-gradient(180deg,rgba(10,10,8,.55),rgba(10,10,8,.8))}}
+.tile{background:var(--surface);box-shadow:var(--tile-shadow);border-bottom:4px solid var(--jade);padding:1.2rem .8rem 1rem;text-align:center;text-decoration:none;color:var(--ink);display:block}
+.tile:hover{border-bottom-color:var(--gold)}
+.tile svg{width:44px;height:44px;margin:0 auto .5rem;display:block;stroke:var(--accent);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.tile b{display:block;font-family:var(--cond);font-weight:800;font-size:1.45rem;line-height:1.05;text-transform:uppercase}
+.tile span{font-size:.92rem;color:var(--muted)}
+
+/* section titles « TITLE » */
+section{padding:4.5rem 0}
+.sec-title{font-family:var(--cond);font-weight:800;font-style:italic;text-transform:uppercase;font-size:clamp(2rem,4.6vw,2.9rem);line-height:1;margin:0 0 1.2rem;text-align:center;letter-spacing:.01em}
+.sec-title::before{content:"«";color:var(--accent);margin-right:.45em;font-style:normal}
+.sec-title::after{content:"»";color:var(--accent);margin-left:.45em;font-style:normal}
+.on-dark .sec-title{color:var(--bone)}
+.on-dark .sec-title::before,.on-dark .sec-title::after{color:var(--gold)}
+.center-lead{max-width:44rem;margin:0 auto 2.6rem;text-align:center;color:var(--muted)}
+.on-dark .center-lead{color:rgba(236,233,221,.78)}
+
+/* game plan */
+.plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem 2.5rem}
+.plan .stat{font-family:var(--cond);font-weight:800;font-style:italic;font-size:3.4rem;line-height:1;color:var(--accent);display:block}
+.plan h3{font-family:var(--cond);font-weight:700;text-transform:uppercase;font-size:1.35rem;letter-spacing:.02em;margin:.2rem 0 .3rem}
+.plan p{margin:0;color:var(--muted)}
+
+/* diagonal split bands */
+.band{position:relative;min-height:440px;display:flex;overflow:hidden;background:var(--obsidian)}
+.band.light{background:var(--band-light)}
+.band-photo{position:absolute;top:0;bottom:0;left:0;width:58%}
+.band-photo img{width:100%;height:100%;object-fit:cover}
+.band-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,8,.55),rgba(10,10,8,0) 40%)}
+.band-photo h2{position:absolute;z-index:2;top:1.4rem;left:1.6rem;margin:0;font-family:var(--cond);font-weight:800;font-style:italic;text-transform:uppercase;color:#fff;
+  font-size:clamp(2rem,4.4vw,3.3rem);line-height:.95;text-shadow:0 2px 14px rgba(0,0,0,.55);max-width:80%}
+.band-stripe{position:absolute;top:0;bottom:0;right:0;width:52%;clip-path:polygon(18% 0,100% 0,100% 100%,0 100%);background:var(--gold)}
+.band-stripe.jade{background:var(--jade)}
+.band-panel{position:relative;margin-left:auto;width:50%;clip-path:polygon(18% 0,100% 0,100% 100%,0 100%);background:inherit;
+  padding:3rem clamp(1.4rem,4vw,3.5rem) 3rem 13%;display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right}
+.band:not(.light) .band-panel{color:var(--bone);background:var(--obsidian)}
+.band.light .band-panel{background:var(--band-light);color:var(--ink)}
+.band-panel p{margin:0 0 1rem;max-width:34rem}
+.band:not(.light) .band-panel p{color:rgba(236,233,221,.85)}
+.band.light .band-panel p{color:var(--muted)}
+.band-panel .btn{margin-top:.6rem}
+.band-list{list-style:none;margin:0 0 1rem;padding:0;max-width:34rem}
+.band-list li{margin:0 0 .55rem}
+.band-list b{font-family:var(--cond);font-weight:800;text-transform:uppercase;letter-spacing:.03em;font-size:1.15rem;color:var(--gold-light)}
+.band.light .band-list b{color:var(--accent)}
+/* reversed: photo right, panel left */
+.band.rev .band-photo{left:auto;right:0}
+.band.rev .band-photo h2{left:auto;right:1.6rem;text-align:right}
+.band.rev .band-stripe{right:auto;left:0;clip-path:polygon(0 0,100% 0,82% 100%,0 100%)}
+.band.rev .band-panel{margin-left:0;margin-right:auto;clip-path:polygon(0 0,100% 0,82% 100%,0 100%);padding:3rem 13% 3rem clamp(1.4rem,4vw,3.5rem);align-items:flex-start;text-align:left}
+.band + .band{border-top:3px solid var(--obsidian)}
+@media (max-width:860px){
+  .band{flex-direction:column;min-height:0}
+  .band-photo,.band.rev .band-photo{position:relative;width:100%;height:280px}
+  .band-stripe{display:none}
+  .band-panel,.band.rev .band-panel{width:100%;clip-path:none;padding:2rem 1.4rem 2.4rem;align-items:flex-start;text-align:left;border-top:5px solid var(--gold)}
+}
+
+/* galleries */
+.mosaic{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(150px,18vw,230px);grid-auto-flow:dense;gap:.5rem}
+.mosaic figure,.night-grid figure,.strip figure{margin:0;overflow:hidden;background:#1a1a14}
+.mosaic img,.night-grid img,.strip img{width:100%;height:100%;object-fit:cover}
+.mosaic .tall{grid-row:span 2}
+.mosaic .wide{grid-column:span 2}
+@media (max-width:760px){.mosaic{grid-template-columns:repeat(2,1fr)}}
+.credit{margin:1rem 0 0;font-size:.85rem;color:var(--muted);text-align:center}
+.night-sec{background:var(--obsidian);padding:0 0 4rem}
+.night-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:clamp(130px,15vw,200px);gap:.5rem}
+.ng-pastor{grid-column:1/3;grid-row:1/3}
+.ng-mezcal{grid-column:3/5}
+.ng-garibaldi{grid-column:5/7}
+.ng-rev{grid-column:3/7}
+.ng-zocalo{grid-column:1/7}
+@media (max-width:700px){.night-grid{grid-template-columns:1fr 1fr}.night-grid figure{grid-column:auto!important;grid-row:auto!important}.night-grid .ng-zocalo,.night-grid .ng-rev{grid-column:1/3!important}}
+.strip{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.strip figure{position:relative;aspect-ratio:16/9}
+.strip figcaption{position:absolute;left:0;bottom:0;padding:.6rem 1rem;background:rgba(10,10,8,.78);color:var(--bone);font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+@media (max-width:640px){.strip{grid-template-columns:1fr}}
+
+/* weekend */
+.days{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+@media (max-width:860px){.days{grid-template-columns:1fr 1fr}}
+.days li{background:var(--surface);box-shadow:var(--tile-shadow);padding:1.3rem 1.2rem;border-top:5px solid var(--line)}
+.days li.game{border-top-color:var(--jade)}
+.days .d{font-family:var(--cond);font-weight:800;font-style:italic;text-transform:uppercase;font-size:1.9rem;line-height:1;display:block;margin-bottom:.4rem}
+.days .game .d{color:var(--accent)}
+.days p{margin:0;color:var(--muted)}
+
+/* fees */
+.fees-wrap{max-width:820px;margin:0 auto}
+table.fees{width:100%;border-collapse:collapse;background:var(--surface);box-shadow:var(--tile-shadow)}
+.fees th,.fees td{text-align:left;padding:1rem 1.2rem;border-bottom:1px solid var(--line);vertical-align:top}
+.fees th{font-weight:500;color:var(--muted);width:46%}
+.fees td{font-family:var(--cond);font-weight:800;font-size:1.3rem;text-transform:uppercase}
+.fees td small{display:block;font-family:var(--body);font-weight:400;font-size:.9rem;text-transform:none;color:var(--muted)}
+.incl{margin:1.4rem 0 0;color:var(--muted);text-align:center}
+
+/* register */
+.register{background:var(--obsidian-2);color:var(--bone)}
+.reg-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:3rem;align-items:start}
+@media (max-width:860px){.reg-grid{grid-template-columns:1fr}}
+.register .sec-title{text-align:left}
+.register .lead{color:rgba(236,233,221,.8)}
+.steps{margin:0;padding-left:1.3rem}
+.steps li{margin-bottom:.9rem}
+.steps li::marker{color:var(--gold);font-family:var(--cond);font-weight:800}
+.panel{background:var(--surface);color:var(--ink);padding:clamp(1.3rem,3vw,2.2rem);border-top:5px solid var(--gold);box-shadow:0 14px 40px rgba(0,0,0,.35)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media (max-width:560px){.row{grid-template-columns:1fr}}
+label{display:block;font-weight:600;font-size:.95rem;margin:0 0 1.1rem}
+label .opt{font-weight:400;color:var(--muted)}
+input,select,textarea{display:block;width:100%;margin-top:.35rem;font:inherit;font-weight:400;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:2px;padding:.7rem .8rem}
+textarea{min-height:90px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus) 30%,transparent)}
+.err{color:var(--error);font-size:.88rem;font-weight:500;display:none;margin-top:.3rem}
+label.bad .err{display:block}
+label.bad input,label.bad select{border-color:var(--error)}
+.check{display:flex;gap:.6rem;align-items:flex-start;font-weight:400}
+.check input{width:auto;margin-top:.3rem}
+.panel .btn{width:100%}
+.form-msg{margin-top:1rem;font-weight:500}
+.done h3{font-family:var(--cond);font-weight:800;font-style:italic;text-transform:uppercase;font-size:2.2rem;line-height:1;margin:0 0 .8rem}
+.done p{margin:0 0 1rem}
+.done .btn{display:block;text-align:center}
+.note{font-size:.9rem;color:var(--muted)}
+
+
+.mode{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin:0 0 1.3rem}
+.mode button{all:unset;cursor:pointer;padding:.85rem 1rem;border:2px solid var(--line);background:var(--bg);text-align:center}
+.mode button b{display:block;font-family:var(--cond);font-weight:800;text-transform:uppercase;font-size:1.3rem;line-height:1.1;color:var(--ink)}
+.mode button span{font-size:.85rem;color:var(--muted)}
+.mode button[aria-checked="true"]{border-color:var(--jade);background:color-mix(in srgb,var(--jade) 10%,var(--bg));box-shadow:inset 0 -4px 0 var(--jade)}
+.mode button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.mode-note{margin:0 0 1.2rem;padding:.8rem 1rem;background:color-mix(in srgb,var(--gold) 16%,var(--bg));border-left:4px solid var(--gold);font-size:.95rem}
+#form[data-mode="team"] [data-only="agent"],#form[data-mode="agent"] [data-only="team"]{display:none!important}
+.hero-alt{color:var(--bone);font-weight:600}
+.hero-alt:hover{color:var(--gold-light)}
+
+/* faq */
+.faq{max-width:820px;margin:0 auto}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;padding:1.1rem 0;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--cond);font-weight:800;font-size:1.7rem;line-height:1;color:var(--accent)}
+details[open] summary::after{content:"–"}
+details p{margin:0 0 1.2rem;color:var(--muted)}
+
+footer{padding:3rem 0 3.5rem;background:var(--obsidian);color:rgba(236,233,221,.7);font-size:.95rem;border-top:3px solid var(--gold)}
+footer .top{display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between;align-items:center;margin-bottom:1.6rem}
+footer a{color:var(--gold-light)}
+footer .mark{font-size:1.4rem}
+.photo-credits{font-size:.78rem;color:rgba(236,233,221,.55);margin:0}
+.photo-credits a{color:inherit}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="#top">COPA AZTECA</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#tournament" data-i18n="navTournament">Tournament</a>
+      <a href="#city" data-i18n="navCity">Mexico City</a>
+      <a href="#fees" data-i18n="navFees">Fees</a>
+      <a href="#faq" data-i18n="navFaq">FAQ</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+    <a class="btn" href="#register" data-i18n="navRegister">Register</a>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero-wrap">
+  <div class="stripe s-jade" aria-hidden="true"></div>
+  <div class="stripe s-gold" aria-hidden="true"></div>
+  <section class="hero" style="padding:0">
+    <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="/assets/poster1080.jpg" aria-label="Highlights from Copa Azteca 2023">
+      <source src="/assets/hero1080.mp4" type="video/mp4">
+    </video>
+    <div class="wrap">
+      <p class="kicker" data-i18n="kicker">Mexico's largest lacrosse tournament</p>
+      <h1>Copa Azteca 2027</h1>
+      <p class="when" data-i18n="when">February 13–14, 2027 · Mexico City</p>
+      <p class="sub" data-i18n="sub">Teams from the US, Canada, Colombia, Mexico and more, over the Presidents Day and Family Day long weekend. Two days of men's field lacrosse, then fly home on the Monday holiday.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#register" data-i18n="ctaHero">Register your team</a>
+        <a class="hero-alt" href="#register" data-go-mode="agent" data-i18n="heroAgent">No team? Sign up as a free agent</a>
+        <button type="button" class="btn line sound" id="soundBtn" aria-pressed="false"><span id="soundIcon" aria-hidden="true">🔇</span><span id="soundLabel" data-i18n="soundOn">Sound on</span></button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="wrap tiles">
+  <a class="tile" href="#weekend"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="10" width="34" height="31" rx="2"/><path d="M7 19h34M16 6v8M32 6v8"/></svg><b data-i18n="tile1">Feb 13–14</b><span data-i18n="tile1s">Long weekend</span></a>
+  <a class="tile" href="#tournament"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M15 7h18v10a9 9 0 0 1-18 0zM15 11H8a7 7 0 0 0 7 7M33 11h7a7 7 0 0 1-7 7M24 26v8M16 41h16M19 34h10v7H19z"/></svg><b data-i18n="tile2">Men's open</b><span data-i18n="tile2s">Field lacrosse</span></a>
+  <a class="tile" href="#weekend"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="9" width="38" height="30" rx="1"/><path d="M24 9v30"/><circle cx="24" cy="24" r="5"/><path d="M5 18h6v12H5M43 18h-6v12h6"/></svg><b data-i18n="tile3">5+ games</b><span data-i18n="tile3s">Two 20-min halves</span></a>
+  <a class="tile" href="#fees"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="26" r="15"/><path d="M24 18v8l6 4M19 5h10M24 5v6"/></svg><b data-i18n="tile4">Dec 1</b><span data-i18n="tile4s">Early-bird deadline</span></a>
+  <a class="tile" href="#city"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 43s13-12.4 13-23a13 13 0 0 0-26 0c0 10.6 13 23 13 23z"/><circle cx="24" cy="20" r="5"/></svg><b data-i18n="tile5">CDMX</b><span data-i18n="tile5s">Stay for the city</span></a>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title" data-i18n="planTitle">The game plan</h2>
+    <p class="center-lead" data-i18n="whyLead">February is offseason or preseason for most of North America. Spend it playing in the sun, in one of the world's great food cities.</p>
+    <div class="plan">
+      <div><span class="stat">0</span><h3 data-i18n="why1t">Workdays missed</h3><p data-i18n="why1">Games run Saturday and Sunday. Monday is a holiday in the US and most of Canada, so it's your travel day.</p></div>
+      <div><span class="stat">24°</span><h3 data-i18n="why2t">February sunshine</h3><p data-i18n="why2">Mexico City's dry season: warm afternoons and clear skies while it's snowing back home.</p></div>
+      <div><span class="stat">3–5</span><h3 data-i18n="why3t">Hours from most hubs</h3><p data-i18n="why3">Direct flights to Mexico City from major US and Canadian airports. No visa needed for US or Canadian passports.</p></div>
+      <div><span class="stat">1</span><h3 data-i18n="why4t">Host who handles it</h3><p data-i18n="why4">Hotel block, airport transfers and a team social are organized locally, so your captain doesn't have to.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="band" id="tournament">
+  <div class="band-photo"><img src="/assets/kos-shot.jpg" alt="Player in purple firing a shot at the goal" loading="lazy"><h2 data-i18n="tourTitle">The tournament</h2></div>
+  <div class="band-stripe" aria-hidden="true"></div>
+  <div class="band-panel">
+    <p data-i18n="tourBody">Mexico's largest lacrosse tournament of the year, with teams from the US, Canada, Colombia, Mexico and more. Every team plays at least five games of two 20-minute halves, with rosters of up to 20 players. Pool play Saturday, playoffs and the championship Sunday.</p>
+    <a class="btn" href="#register" data-i18n="ctaHero">Register your team</a>
+  </div>
+</div>
+
+<section id="weekend">
+  <div class="wrap">
+    <h2 class="sec-title" data-i18n="wkTitle">The weekend</h2>
+    <p class="center-lead" data-i18n="wkLead">Every team plays at least five games, each two 20-minute halves. Rosters of up to 20 players. Final schedule published February 5.</p>
+    <ol class="days">
+      <li><span class="d" data-i18n="d1">Fri 12</span><p data-i18n="d1p">Arrivals, check-in and welcome night.</p></li>
+      <li class="game"><span class="d" data-i18n="d2">Sat 13</span><p data-i18n="d2p">Pool play. Night out in the city.</p></li>
+      <li class="game"><span class="d" data-i18n="d3">Sun 14</span><p data-i18n="d3p">Playoffs, championship game and closing party.</p></li>
+      <li><span class="d" data-i18n="d4">Mon 15</span><p data-i18n="d4p">Presidents Day and Family Day. Fly home.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section style="background:var(--band-light)">
+  <div class="wrap">
+    <h2 class="sec-title" data-i18n="galTitle">This is Copa Azteca</h2>
+    <p class="center-lead" data-i18n="galLead">Teams from the US, Canada, Colombia, Mexico and more, playing for the trophy and staying for the weekend.</p>
+    <div class="mosaic">
+      <figure class="wide"><img src="/assets/xolos-portrait.jpg" alt="Xolos attacker cradling the ball" loading="lazy" style="object-position:50% 25%"></figure>
+      <figure><img src="/assets/helmets.jpg" alt="Two players in helmets facing off" loading="lazy"></figure>
+      <figure><img src="/assets/mexico-jersey.jpg" alt="Player in a Mexico-themed jersey running upfield" loading="lazy"></figure>
+      <figure class="tall"><img src="/assets/goalie.jpg" alt="Goalie clearing the ball" loading="lazy"></figure>
+      <figure class="wide"><img src="/assets/kos-midfield.jpg" alt="Midfielders battling for the ball" loading="lazy"></figure>
+      <figure class="tall"><img src="/assets/dodge.jpg" alt="Players in blue running a play" loading="lazy"></figure>
+      <figure class="wide"><img src="/assets/shot.jpg" alt="Attacker shooting past a defender" loading="lazy"></figure>
+    </div>
+    <p class="credit" data-i18n="credit">Photos: adri tufotografa and Gerardo Leal.</p>
+  </div>
+</section>
+
+<div class="band light rev" id="city">
+  <div class="band-photo"><img src="/assets/cdmx-bellas-artes.jpg" alt="Palacio de Bellas Artes lit up at dusk" loading="lazy"><h2 data-i18n="cityTitle">Stay for the city</h2></div>
+  <div class="band-stripe jade" aria-hidden="true"></div>
+  <div class="band-panel">
+    <p data-i18n="cityLead">Mexico City is one of the great cities of the world: palaces and pyramids, a food scene people fly in for, and neighborhoods that stay awake long after the final whistle.</p>
+    <p data-i18n="cityLead2">Saturday evening is free on purpose. Most teams fly home Monday, so there's time to see it properly.</p>
+    <a class="btn jade" href="#night" data-i18n="cityCta">See the night out</a>
+  </div>
+</div>
+
+<div class="band" id="night">
+  <div class="band-photo"><img src="/assets/cdmx-lucha-libre.jpg" alt="Packed crowd under the lights at a lucha libre show in Arena México" loading="lazy"><h2 data-i18n="nightTitle">After dark</h2></div>
+  <div class="band-stripe" aria-hidden="true"></div>
+  <div class="band-panel">
+    <p data-i18n="nightLead">Win or lose, Saturday night in Mexico City is the best part of the trip. The city goes late, and your team will want to keep up.</p>
+    <ul class="band-list">
+      <li><b data-i18n="n1t">Roma and Condesa</b> <span data-i18n="n1">Mezcal bars, cocktail spots and rooftops a short walk from each other.</span></li>
+      <li><b data-i18n="n2t">Lucha libre</b> <span data-i18n="n2">Masks, flying wrestlers and a crowd louder than any sideline at Arena México.</span></li>
+      <li><b data-i18n="n3t">Plaza Garibaldi</b> <span data-i18n="n3">Hire a mariachi band, order a round and sing along until late.</span></li>
+      <li><b data-i18n="n4t">Tacos at 2 a.m.</b> <span data-i18n="n4">Al pastor straight off the trompo. The only way to end the night.</span></li>
+    </ul>
+  </div>
+</div>
+<section class="night-sec">
+  <div class="wrap night-grid" style="padding-top:.5rem">
+    <figure class="ng-pastor"><img src="/assets/cdmx-pastor.jpg" alt="Tacos al pastor roasting on a trompo at night" loading="lazy"></figure>
+    <figure class="ng-mezcal"><img src="/assets/cdmx-mezcal.jpg" alt="Two shots of mezcal on a bar" loading="lazy"></figure>
+    <figure class="ng-garibaldi"><img src="/assets/cdmx-garibaldi.jpg" alt="Mariachi in Plaza Garibaldi at night" loading="lazy"></figure>
+    <figure class="ng-rev"><img src="/assets/cdmx-revolucion.jpg" alt="Monumento a la Revolución with colored fountains at night" loading="lazy"></figure>
+    <figure class="ng-zocalo"><img src="/assets/cdmx-zocalo.jpg" alt="Panorama of the Zócalo at nightfall" loading="lazy"></figure>
+  </div>
+</section>
+
+<div class="band light rev">
+  <div class="band-photo"><img src="/assets/cdmx-teotihuacan.jpg" alt="Pyramid of the Sun at Teotihuacan" loading="lazy"><h2 data-i18n="dayTitle">By day</h2></div>
+  <div class="band-stripe jade" aria-hidden="true"></div>
+  <div class="band-panel">
+    <p data-i18n="dayLead">Fly in Thursday or leave Monday evening and add one of these.</p>
+    <ul class="band-list">
+      <li><b data-i18n="dc1t">Teotihuacán</b> <span data-i18n="dc1">Climb the Pyramid of the Sun, about an hour outside the city.</span></li>
+      <li><b data-i18n="dc2t">Xochimilco</b> <span data-i18n="dc2">Rent a trajinera for the team and float the canals with music and drinks.</span></li>
+      <li><b data-i18n="dc3t">Chapultepec and the Centro</b> <span data-i18n="dc3">A castle in the park, Bellas Artes and the Zócalo, all in one afternoon.</span></li>
+    </ul>
+  </div>
+</div>
+<section style="padding:.5rem 0 0;background:var(--band-light)">
+  <div class="strip">
+    <figure><img src="/assets/cdmx-xochimilco.jpg" alt="Colorful trajinera boats in Xochimilco" loading="lazy"><figcaption data-i18n="dc2t">Xochimilco</figcaption></figure>
+    <figure><img src="/assets/cdmx-chapultepec.jpg" alt="Chapultepec Castle above the park" loading="lazy"><figcaption data-i18n="capChap">Chapultepec</figcaption></figure>
+  </div>
+</section>
+
+<div class="band" id="travel">
+  <div class="band-photo"><img src="/assets/poster.jpg" alt="" loading="lazy"><h2 data-i18n="trTitle">Getting here</h2></div>
+  <div class="band-stripe" aria-hidden="true"></div>
+  <div class="band-panel">
+    <ul class="band-list">
+      <li><b data-i18n="tr1t">Fly into MEX</b> <span data-i18n="tr1">Mexico City International (MEX) has direct flights from most major US and Canadian cities. Arrive Friday, leave Monday.</span></li>
+      <li><b data-i18n="tr2t">Passports and visas</b> <span data-i18n="tr2">US and Canadian passport holders don't need a visa. Other nationalities should check early; we provide official invitation letters on request.</span></li>
+      <li><b data-i18n="tr3t">Hotel block</b> <span data-i18n="tr3">We're arranging a group rate near the fields. Registered teams get the details first.</span></li>
+      <li><b data-i18n="tr4t">What to pack</b> <span data-i18n="tr4">Sunscreen, a light jacket for cool mornings, and something nice for the closing party.</span></li>
+    </ul>
+  </div>
+</div>
+
+<section id="fees">
+  <div class="wrap fees-wrap">
+    <h2 class="sec-title" data-i18n="feeTitle">Fees and deadlines</h2>
+    <p class="center-lead" data-i18n="feeLead">Fees are in US dollars. Teams hold their spot with a deposit; free agents pay a single player fee.</p>
+    <table class="fees">
+      <tr><th data-i18n="fEarly">Early-bird team fee</th><td><span data-fee="earlyFee"></span><small data-i18n="fEarlyNote">Register and pay deposit by December 1, 2026</small></td></tr>
+      <tr><th data-i18n="fReg">Regular team fee</th><td><span data-fee="regularFee"></span><small data-i18n="fRegNote">Registration closes January 15, 2027</small></td></tr>
+      <tr><th data-i18n="fDep">Deposit to hold your spot</th><td><span data-fee="deposit"></span><small data-i18n="fDepNote">Non-refundable, credited to your team fee</small></td></tr>
+      <tr><th data-i18n="fAgent">Free agent player fee</th><td><span data-fee="freeAgentFee"></span><small data-i18n="fAgentNote">Per player. We place you on a team.</small></td></tr>
+      <tr><th data-i18n="fBal">Balance due</th><td><span data-i18n="fBalVal">January 15, 2027</span><small data-i18n="fBalNote">Final rosters and waivers due February 1</small></td></tr>
+    </table>
+    <p class="incl" data-i18n="incl">Included: at least five games, certified officials, athletic trainer on site, water, awards and the closing party. Hotel and transfer packages are optional.</p>
+  </div>
+</section>
+
+<section class="register on-dark" id="register">
+  <div class="wrap reg-grid">
+    <div>
+      <h2 class="sec-title" data-i18n="regTitle">Register your team</h2>
+      <p class="lead" data-i18n="regLead">Register a full team, or sign up on your own as a free agent and we'll place you on a team. Spots are limited by field time and confirmed in the order payments arrive.</p>
+      <ol class="steps">
+        <li data-i18n="s1">Fill in this form. It takes about two minutes.</li>
+        <li data-i18n="s2">Pay the team deposit or the free-agent fee to lock your spot.</li>
+        <li data-i18n="s3">We send your welcome pack: hotel options, travel guide and roster forms. Free agents get their team assignment before February 1.</li>
+      </ol>
+    </div>
+    <div class="panel" id="panel">
+      <div id="form" data-mode="team">
+        <div class="mode" role="radiogroup" aria-label="Registration type">
+          <button type="button" role="radio" aria-checked="true" data-mode-btn="team"><b data-i18n="modeTeam">Full team</b><span data-i18n="modeTeamSub">Bring your roster</span></button>
+          <button type="button" role="radio" aria-checked="false" data-mode-btn="agent"><b data-i18n="modeAgent">Free agent</b><span data-i18n="modeAgentSub">Come solo, we place you</span></button>
+        </div>
+        <p class="mode-note" data-only="agent" data-i18n="agentNote">No team? No problem. Sign up on your own and we'll place you on a team based on your position and level. You'll meet your teammates at the welcome night.</p>
+        <label id="l-team" data-only="team"><span data-i18n="team">Team name</span>
+          <input name="team" autocomplete="organization">
+          <span class="err" data-i18n="errReq">Enter this to continue.</span></label>
+        <div class="row">
+          <label id="l-contact"><span data-only="team" data-i18n="contact">Contact name</span><span data-only="agent" data-i18n="yourName">Your name</span>
+            <input name="contact" autocomplete="name">
+            <span class="err" data-i18n="errReq">Enter this to continue.</span></label>
+          <label id="l-email"><span data-i18n="email">Email</span>
+            <input name="email" type="email" autocomplete="email">
+            <span class="err" data-i18n="errEmail">Enter an email like name@example.com.</span></label>
+        </div>
+        <div class="row">
+          <label id="l-city"><span data-i18n="city">City</span>
+            <input name="city" autocomplete="address-level2">
+            <span class="err" data-i18n="errReq">Enter this to continue.</span></label>
+          <label id="l-country"><span data-i18n="country">Country</span>
+            <input name="country" autocomplete="country-name">
+            <span class="err" data-i18n="errReq">Enter this to continue.</span></label>
+        </div>
+        <div class="row">
+          <label><span data-i18n="phone">Phone or WhatsApp</span> <span class="opt" data-i18n="optional">(optional)</span>
+            <input name="phone" type="tel" autocomplete="tel"></label>
+          <label id="l-roster" data-only="team"><span data-i18n="roster">Roster size (up to 20)</span>
+            <input name="roster" type="number" min="10" max="20" inputmode="numeric">
+            <span class="err" data-i18n="errRoster">Enter a number between 10 and 20.</span></label>
+          <label id="l-position" data-only="agent"><span data-i18n="position">Position</span>
+            <select name="position">
+              <option value="" data-i18n="pick">Choose one</option>
+              <option value="attack" data-i18n="posA">Attack</option>
+              <option value="midfield" data-i18n="posM">Midfield</option>
+              <option value="defense" data-i18n="posD">Defense / LSM</option>
+              <option value="faceoff" data-i18n="posF">Faceoff</option>
+              <option value="goalie" data-i18n="posG">Goalie</option>
+            </select>
+            <span class="err" data-i18n="errPos">Choose your position.</span></label>
+        </div>
+        <div class="row">
+          <label data-only="team"><span data-i18n="level">Team level</span>
+            <select name="level">
+              <option value="competitive" data-i18n="lvlComp">Competitive</option>
+              <option value="intermediate" data-i18n="lvlInt">Intermediate</option>
+              <option value="recreational" data-i18n="lvlRec">Recreational</option>
+            </select></label>
+          <label data-only="agent"><span data-i18n="experience">Highest level played</span>
+            <select name="experience">
+              <option value="college" data-i18n="expCol">College or higher</option>
+              <option value="club" data-i18n="expClub">Club or adult league</option>
+              <option value="highschool" data-i18n="expHs">High school</option>
+              <option value="new" data-i18n="expNew">Still learning</option>
+            </select></label>
+          <label><span data-i18n="hotel">Interested in the hotel package?</span>
+            <select name="hotel">
+              <option value="yes" data-i18n="yes">Yes</option>
+              <option value="maybe" data-i18n="maybe">Maybe</option>
+              <option value="no" data-i18n="no">No, we'll book our own</option>
+            </select></label>
+        </div>
+        <label data-only="agent"><span data-i18n="playWith">Want to play with someone already registered?</span> <span class="opt" data-i18n="optional">(optional)</span>
+          <input name="playWith" data-i18n-ph="playWithPh" placeholder="Friend's name or team"></label>
+        <label><span data-i18n="heard">How did you hear about us?</span> <span class="opt" data-i18n="optional">(optional)</span>
+          <input name="heard"></label>
+        <label><span data-i18n="notes">Anything we should know?</span> <span class="opt" data-i18n="optional">(optional)</span>
+          <textarea name="notes"></textarea></label>
+        <label class="check" id="l-terms"><input type="checkbox" name="terms">
+          <span><span data-only="team" data-i18n="terms">I understand the deposit is non-refundable and our spot is confirmed once it's paid.</span><span data-only="agent" data-i18n="termsAgent">I understand the player fee is non-refundable and the organizers will place me on a team.</span>
+          <span class="err" data-i18n="errTerms">Check this box to register.</span></span></label>
+        <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn jade" type="button" id="submit"><span data-only="team" data-i18n="submit">Register team</span><span data-only="agent" data-i18n="submitAgent">Sign up as a free agent</span></button>
+        <p class="form-msg" id="formMsg" role="alert" aria-live="polite"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap faq">
+    <h2 class="sec-title" data-i18n="faqTitle">Questions</h2>
+    <details><summary data-i18n="q1">Where are the games played?</summary><p data-i18n="a1">In Mexico City. The venue will be announced before the early-bird deadline, and registered teams hear first.</p></details>
+    <details><summary data-i18n="qAgent">Can I come without a team?</summary><p data-i18n="aAgent">Yes. Register as a free agent with your position and level, and we'll build balanced teams from the free-agent list. You can also ask to play with a friend who's already registered.</p></details>
+    <details><summary data-i18n="q2">Can players from different clubs form one team?</summary><p data-i18n="a2">Yes. Composite and alumni teams are welcome. One contact registers and manages the roster.</p></details>
+    <details><summary data-i18n="q3">Is there insurance?</summary><p data-i18n="a3">Every player signs a waiver. Teams should carry their own liability coverage; contact us if you need help with this.</p></details>
+    <details><summary data-i18n="q4">Is Mexico City safe for visiting teams?</summary><p data-i18n="a4">The neighborhoods where teams stay and play are busy with visitors year-round. Our travel guide covers transport, money and areas to enjoy.</p></details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="top">
+      <span class="mark">COPA AZTECA 2027</span>
+      <span id="contactLine"></span>
+      <a class="btn" href="#register" data-i18n="ctaHero">Register your team</a>
+    </div>
+    <p class="photo-credits"><span data-i18n="cityCredits">City photos from Wikimedia Commons, resized:</span> <a href="https://commons.wikimedia.org/wiki/File:El_Monumento_a_la_Revoluci%C3%B3n_de_noche_con_fuentes_de_colores_00DSC_021600.JPG" target="_blank" rel="noopener">El Monumento a la Revolución de noche con fuentes de colores 00DSC 021600</a> by Cborja2015 (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Evening_Palacio_de_Bellas_Artes_view_from_southwest.jpg" target="_blank" rel="noopener">Evening Palacio de Bellas Artes view from southwest</a> by Daniel Case (CC BY-SA 3.0), <a href="https://commons.wikimedia.org/wiki/File:Lucha_libre_Arena_M%C3%A9xico.jpg" target="_blank" rel="noopener">Lucha libre Arena México</a> by Wotancito (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Plaza_Garibaldi-_mariachi_band_in_traffic.jpg" target="_blank" rel="noopener">Plaza Garibaldi- mariachi band in traffic</a> by Thayne Tuason (CC BY 4.0), <a href="https://commons.wikimedia.org/wiki/File:Pyramid_of_the_Sun,_Teotihuacan,_from_path_to_parking_lot.jpg" target="_blank" rel="noopener">Pyramid of the Sun, Teotihuacan, from path to parking lot</a> by Daniel Case (CC BY-SA 3.0), <a href="https://commons.wikimedia.org/wiki/File:Shot_de_mezcal_en_el_Bar_Baltra.jpg" target="_blank" rel="noopener">Shot de mezcal en el Bar Baltra</a> by Janramwill (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Trompo_de_tacos_al_pastor.jpg" target="_blank" rel="noopener">Trompo de tacos al pastor</a> by ProtoplasmaKid (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg" target="_blank" rel="noopener">Vista aérea del Castillo de Chapultepec 7</a> by ProtoplasmaKid (CC BY-SA 4.0), <a href="https://commons.wikimedia.org/wiki/File:Xochimilco_Trajinera_(46540573265).jpg" target="_blank" rel="noopener">Xochimilco Trajinera (46540573265)</a> by Nan Palmero from San Antonio, TX, USA (CC BY 2.0), <a href="https://commons.wikimedia.org/wiki/File:Zocalo_Mexico_City_panorama_at_nightfall.jpg" target="_blank" rel="noopener">Zocalo Mexico City panorama at nightfall</a> by Uwebart (CC BY-SA 3.0).</p>
+  </div>
+</footer>
+
+<script>
+/* ===== Edit these before going live ===== */
+const CONFIG = {
+  earlyFee: "",        // e.g. "$1,200 USD"
+  regularFee: "",      // e.g. "$1,400 USD"
+  deposit: "",         // e.g. "$400 USD"
+  freeAgentFee: "",    // e.g. "$150 USD" per player
+  paymentLink: "",     // Stripe or PayPal payment link for the team deposit
+  paymentLinkFreeAgent: "", // Payment link for the free-agent player fee
+  formEndpoint: "/api/register", // Serverless function that saves to Airtable
+  contactEmail: "",    // Organizer email
+  instagram: ""        // Instagram handle without @
+};
+/* ======================================== */
+
+const T = {
+  en:{
+    modeTeam:"Full team", modeTeamSub:"Bring your roster", modeAgent:"Free agent", modeAgentSub:"Come solo, we place you",
+    agentNote:"No team? No problem. Sign up on your own and we'll place you on a team based on your position and level. You'll meet your teammates at the welcome night.",
+    yourName:"Your name", position:"Position", pick:"Choose one", posA:"Attack", posM:"Midfield", posD:"Defense / LSM", posF:"Faceoff", posG:"Goalie", errPos:"Choose your position.",
+    experience:"Highest level played", expCol:"College or higher", expClub:"Club or adult league", expHs:"High school", expNew:"Still learning",
+    playWith:"Want to play with someone already registered?", playWithPh:"Friend's name or team",
+    termsAgent:"I understand the player fee is non-refundable and the organizers will place me on a team.", submitAgent:"Sign up as a free agent",
+    doneAgentBody:"{name}, you're on the free-agent list. Pay your player fee to lock your spot. We'll place you on a team and introduce you to your captain before February 1.",
+    payAgentBtn:"Pay player fee", heroAgent:"No team? Sign up as a free agent",
+    fAgent:"Free agent player fee", fAgentNote:"Per player. We place you on a team.",
+    qAgent:"Can I come without a team?", aAgent:"Yes. Register as a free agent with your position and level, and we'll build balanced teams from the free-agent list. You can also ask to play with a friend who's already registered.",
+    kicker:"Mexico's largest lacrosse tournament", navTournament:"Tournament", navCity:"Mexico City", navFees:"Fees", navFaq:"FAQ", navRegister:"Register",
+    tile1:"Feb 13–14", tile1s:"Long weekend", tile2:"Men's open", tile2s:"Field lacrosse", tile3:"5+ games", tile3s:"Two 20-min halves", tile4:"Dec 1", tile4s:"Early-bird deadline", tile5:"CDMX", tile5s:"Stay for the city",
+    planTitle:"The game plan", tourTitle:"The tournament", tourBody:"Mexico's largest lacrosse tournament of the year, with teams from the US, Canada, Colombia, Mexico and more. Every team plays at least five games of two 20-minute halves, with rosters of up to 20 players. Pool play Saturday, playoffs and the championship Sunday.",
+    cityCta:"See the night out", capChap:"Chapultepec",
+    when:"February 13–14, 2027 · Mexico City",
+    sub:"Teams from the US, Canada, Colombia, Mexico and more, over the Presidents Day and Family Day long weekend. Two days of men's field lacrosse, then fly home on the Monday holiday.",
+    ctaHero:"Register your team", soundOn:"Sound on", soundOff:"Sound off",
+    factGames:"games per team", factTemp:"typical February afternoon", factDivVal:"Men's open", factDiv:"division", factDeadlineVal:"Dec 1", factDeadline:"early-bird deadline",
+    whyTitle:"Trade the snow for the field",
+    whyLead:"February is offseason or preseason for most of North America. Spend it playing in the sun, in one of the world's great food cities.",
+    why1t:"Workdays missed", why1:"Games run Saturday and Sunday. Monday is a holiday in the US and most of Canada, so it's your travel day.",
+    why2t:"February sunshine", why2:"Mexico City's dry season: warm afternoons and clear skies while it's snowing back home.",
+    why3t:"Hours from most hubs", why3:"Direct flights to Mexico City from major US and Canadian airports. No visa needed for US or Canadian passports.",
+    why4t:"Host who handles it", why4:"Hotel block, airport transfers and a team social are organized locally, so your captain doesn't have to.",
+    galTitle:"This is Copa Azteca", galLead:"Teams from the US, Canada, Colombia, Mexico and more, playing for the trophy and staying for the weekend.", credit:"Photos: adri tufotografa and Gerardo Leal.",
+    cityTitle:"Stay for the city", cityLead:"Mexico City is one of the great cities of the world: palaces and pyramids, a food scene people fly in for, and neighborhoods that stay awake long after the final whistle.",
+    cityLead2:"Saturday evening is free on purpose. Most teams fly home Monday, so there's time to see it properly.",
+    nightTitle:"After dark", nightLead:"Win or lose, Saturday night in Mexico City is the best part of the trip. The city goes late, and your team will want to keep up.",
+    n1t:"Roma and Condesa", n1:"Mezcal bars, cocktail spots and rooftops a short walk from each other.",
+    n2t:"Lucha libre", n2:"Masks, flying wrestlers and a crowd louder than any sideline at Arena México.",
+    n3t:"Plaza Garibaldi", n3:"Hire a mariachi band, order a round and sing along until late.",
+    n4t:"Tacos at 2 a.m.", n4:"Al pastor straight off the trompo. The only way to end the night.",
+    dayTitle:"By day", dayLead:"Fly in Thursday or leave Monday evening and add one of these.",
+    dc1t:"Teotihuacán", dc1:"Climb the Pyramid of the Sun, about an hour outside the city.",
+    dc2t:"Xochimilco", dc2:"Rent a trajinera for the team and float the canals with music and drinks.",
+    dc3t:"Chapultepec and the Centro", dc3:"A castle in the park, Bellas Artes and the Zócalo, all in one afternoon.",
+    cityCredits:"City photos from Wikimedia Commons, resized:",
+    wkTitle:"The weekend", wkLead:"Every team plays at least five games, each two 20-minute halves. Rosters of up to 20 players. Final schedule published February 5.",
+    d1:"Fri 12", d1p:"Arrivals, check-in and welcome night.", d2:"Sat 13", d2p:"Pool play. Night out in the city.",
+    d3:"Sun 14", d3p:"Playoffs, championship game and closing party.", d4:"Mon 15", d4p:"Presidents Day and Family Day. Fly home.",
+    feeTitle:"Fees and deadlines", feeLead:"Fees are in US dollars. Teams hold their spot with a deposit; free agents pay a single player fee.",
+    fEarly:"Early-bird team fee", fEarlyNote:"Register and pay deposit by December 1, 2026", fReg:"Regular team fee", fRegNote:"Registration closes January 15, 2027",
+    fDep:"Deposit to hold your spot", fDepNote:"Non-refundable, credited to your team fee", fBal:"Balance due", fBalVal:"January 15, 2027", fBalNote:"Final rosters and waivers due February 1",
+    feeTBA:"Announced soon",
+    incl:"Included: at least five games, certified officials, athletic trainer on site, water, awards and the closing party. Hotel and transfer packages are optional.",
+    regTitle:"Register your team", regLead:"Register a full team, or sign up on your own as a free agent and we'll place you on a team. Spots are limited by field time and confirmed in the order payments arrive.",
+    s1:"Fill in this form. It takes about two minutes.", s2:"Pay the team deposit or the free-agent fee to lock your spot.", s3:"We send your welcome pack: hotel options, travel guide and roster forms. Free agents get their team assignment before February 1.",
+    team:"Team name", city:"City", country:"Country", contact:"Contact name", email:"Email", phone:"Phone or WhatsApp", optional:"(optional)",
+    roster:"Roster size (up to 20)", level:"Team level", lvlComp:"Competitive", lvlInt:"Intermediate", lvlRec:"Recreational",
+    hotel:"Interested in the hotel package?", yes:"Yes", maybe:"Maybe", no:"No, we'll book our own",
+    heard:"How did you hear about us?", notes:"Anything we should know?",
+    terms:"I understand the deposit is non-refundable and our spot is confirmed once it's paid.",
+    errReq:"Enter this to continue.", errEmail:"Enter an email like name@example.com.", errRoster:"Enter a number between 10 and 20.", errTerms:"Check this box to register.",
+    submit:"Register team", sending:"Sending…", fixErrors:"Check the highlighted fields.",
+    sendFail:"Your registration didn't go through. Check your connection and try again.",
+    doneTitle:"Registration received", doneBody:"{team} is on the list. Pay your deposit to lock in your spot.",
+    payBtn:"Pay deposit", payLater:"We'll email your payment link within 48 hours.",
+    previewNote:"Preview mode: registrations are not being sent yet.", emailUs:"Email this registration to us",
+    trTitle:"Getting here", tr1t:"Fly into MEX", tr1:"Mexico City International (MEX) has direct flights from most major US and Canadian cities. Arrive Friday, leave Monday.",
+    tr2t:"Passports and visas", tr2:"US and Canadian passport holders don't need a visa. Other nationalities should check early; we provide official invitation letters on request.",
+    tr3t:"Hotel block", tr3:"We're arranging a group rate near the fields. Registered teams get the details first.",
+    tr4t:"What to pack", tr4:"Sunscreen, a light jacket for cool mornings, and something nice for the closing party.",
+    faqTitle:"Questions", q1:"Where are the games played?", a1:"In Mexico City. The venue will be announced before the early-bird deadline, and registered teams hear first.",
+    q2:"Can players from different clubs form one team?", a2:"Yes. Composite and alumni teams are welcome. One contact registers and manages the roster.",
+    q3:"Is there insurance?", a3:"Every player signs a waiver. Teams should carry their own liability coverage; contact us if you need help with this.",
+    q4:"Is Mexico City safe for visiting teams?", a4:"The neighborhoods where teams stay and play are busy with visitors year-round. Our travel guide covers transport, money and areas to enjoy."
+  },
+  es:{
+    modeTeam:"Equipo completo", modeTeamSub:"Trae tu roster", modeAgent:"Agente libre", modeAgentSub:"Ven solo, te asignamos",
+    agentNote:"¿Sin equipo? No pasa nada. Inscríbete por tu cuenta y te asignamos a un equipo según tu posición y nivel. Conocerás a tus compañeros en la noche de bienvenida.",
+    yourName:"Tu nombre", position:"Posición", pick:"Elige una", posA:"Ataque", posM:"Medio", posD:"Defensa / LSM", posF:"Faceoff", posG:"Portero", errPos:"Elige tu posición.",
+    experience:"Nivel más alto en el que has jugado", expCol:"Universidad o superior", expClub:"Club o liga adulta", expHs:"Preparatoria", expNew:"Aprendiendo",
+    playWith:"¿Quieres jugar con alguien ya inscrito?", playWithPh:"Nombre de tu amigo o equipo",
+    termsAgent:"Entiendo que la cuota de jugador no es reembolsable y que los organizadores me asignarán a un equipo.", submitAgent:"Inscribirme como agente libre",
+    doneAgentBody:"{name}, ya estás en la lista de agentes libres. Paga tu cuota de jugador para asegurar tu lugar. Te asignaremos a un equipo y te presentaremos a tu capitán antes del 1 de febrero.",
+    payAgentBtn:"Pagar cuota de jugador", heroAgent:"¿Sin equipo? Inscríbete como agente libre",
+    fAgent:"Cuota de agente libre", fAgentNote:"Por jugador. Te asignamos a un equipo.",
+    qAgent:"¿Puedo ir sin equipo?", aAgent:"Sí. Inscríbete como agente libre con tu posición y nivel, y armamos equipos balanceados con la lista de agentes libres. También puedes pedir jugar con un amigo que ya esté inscrito.",
+    kicker:"El torneo de lacrosse más grande de México", navTournament:"Torneo", navCity:"CDMX", navFees:"Cuotas", navFaq:"Preguntas", navRegister:"Inscríbete",
+    tile1:"13–14 feb", tile1s:"Fin de semana largo", tile2:"Varonil abierta", tile2s:"Lacrosse de campo", tile3:"5+ partidos", tile3s:"Dos tiempos de 20 min", tile4:"1 dic", tile4s:"Fecha de preventa", tile5:"CDMX", tile5s:"Quédate por la ciudad",
+    planTitle:"El plan de juego", tourTitle:"El torneo", tourBody:"El torneo de lacrosse más grande de México del año, con equipos de Estados Unidos, Canadá, Colombia, México y más. Cada equipo juega al menos cinco partidos de dos tiempos de 20 minutos, con rosters de hasta 20 jugadores. Fase de grupos el sábado, eliminatorias y final el domingo.",
+    cityCta:"Ver la noche", capChap:"Chapultepec",
+    when:"13 y 14 de febrero de 2027 · Ciudad de México",
+    sub:"Equipos de Estados Unidos, Canadá, Colombia, México y más, en el fin de semana largo de Presidents Day y Family Day. Dos días de lacrosse de campo varonil y regreso a casa el lunes festivo.",
+    ctaHero:"Inscribe a tu equipo", soundOn:"Activar sonido", soundOff:"Silenciar",
+    factGames:"partidos por equipo", factTemp:"tarde típica de febrero", factDivVal:"Varonil abierta", factDiv:"división", factDeadlineVal:"1 dic", factDeadline:"fecha de preventa",
+    whyTitle:"Cambia la nieve por la cancha",
+    whyLead:"Febrero es pretemporada o temporada baja en casi toda Norteamérica. Pásalo jugando bajo el sol, en una de las grandes ciudades gastronómicas del mundo.",
+    why1t:"Días de trabajo perdidos", why1:"Se juega sábado y domingo. El lunes es festivo en Estados Unidos y casi todo Canadá, así que es tu día de viaje.",
+    why2t:"Sol en febrero", why2:"Temporada seca en la CDMX: tardes cálidas y cielos despejados mientras en casa está nevando.",
+    why3t:"Horas desde la mayoría de los hubs", why3:"Vuelos directos a la CDMX desde los principales aeropuertos de EE. UU. y Canadá. Sin visa para pasaportes estadounidenses o canadienses.",
+    why4t:"Anfitrión que lo resuelve", why4:"Bloque de hotel, traslados del aeropuerto y convivio organizados localmente, para que tu capitán no tenga que hacerlo.",
+    galTitle:"Esto es la Copa Azteca", galLead:"Equipos de Estados Unidos, Canadá, Colombia, México y más, que vienen por el trofeo y se quedan por el fin de semana.", credit:"Fotos: adri tufotografa y Gerardo Leal.",
+    cityTitle:"Quédate por la ciudad", cityLead:"La Ciudad de México es una de las grandes ciudades del mundo: palacios y pirámides, una escena gastronómica por la que la gente viaja, y colonias que siguen despiertas mucho después del silbatazo final.",
+    cityLead2:"El sábado en la noche está libre a propósito. La mayoría de los equipos regresan el lunes, así que hay tiempo para conocerla bien.",
+    nightTitle:"De noche", nightLead:"Ganes o pierdas, el sábado en la noche en la CDMX es lo mejor del viaje. La ciudad se va hasta tarde y tu equipo va a querer seguirle el ritmo.",
+    n1t:"Roma y Condesa", n1:"Mezcalerías, bares de coctelería y rooftops a unos pasos uno del otro.",
+    n2t:"Lucha libre", n2:"Máscaras, luchadores volando y una porra más ruidosa que cualquier banca en la Arena México.",
+    n3t:"Plaza Garibaldi", n3:"Contrata un mariachi, pide una ronda y canta hasta tarde.",
+    n4t:"Tacos a las 2 a.m.", n4:"Al pastor directo del trompo. La única forma de cerrar la noche.",
+    dayTitle:"De día", dayLead:"Llega el jueves o regresa el lunes en la tarde y agrega uno de estos.",
+    dc1t:"Teotihuacán", dc1:"Sube la Pirámide del Sol, a una hora de la ciudad.",
+    dc2t:"Xochimilco", dc2:"Renta una trajinera para el equipo y recorre los canales con música y bebidas.",
+    dc3t:"Chapultepec y el Centro", dc3:"Un castillo en el bosque, Bellas Artes y el Zócalo en una sola tarde.",
+    cityCredits:"Fotos de la ciudad de Wikimedia Commons, redimensionadas:",
+    wkTitle:"El fin de semana", wkLead:"Cada equipo juega al menos cinco partidos de dos tiempos de 20 minutos. Rosters de hasta 20 jugadores. El calendario final se publica el 5 de febrero.",
+    d1:"Vie 12", d1p:"Llegadas, registro y noche de bienvenida.", d2:"Sáb 13", d2p:"Fase de grupos. Noche de fiesta en la ciudad.",
+    d3:"Dom 14", d3p:"Eliminatorias, final y fiesta de clausura.", d4:"Lun 15", d4p:"Presidents Day y Family Day. Regreso a casa.",
+    feeTitle:"Cuotas y fechas límite", feeLead:"Las cuotas son en dólares estadounidenses. Los equipos apartan su lugar con un depósito; los agentes libres pagan una sola cuota de jugador.",
+    fEarly:"Cuota de preventa", fEarlyNote:"Inscríbete y paga el depósito antes del 1 de diciembre de 2026", fReg:"Cuota regular", fRegNote:"Las inscripciones cierran el 15 de enero de 2027",
+    fDep:"Depósito para apartar tu lugar", fDepNote:"No reembolsable, se abona a tu cuota", fBal:"Pago del saldo", fBalVal:"15 de enero de 2027", fBalNote:"Rosters finales y responsivas antes del 1 de febrero",
+    feeTBA:"Próximamente",
+    incl:"Incluye: al menos cinco partidos, árbitros certificados, fisioterapeuta en sede, agua, premiación y fiesta de clausura. Los paquetes de hotel y traslados son opcionales.",
+    regTitle:"Inscribe a tu equipo", regLead:"Inscribe a un equipo completo, o inscríbete por tu cuenta como agente libre y te asignamos a un equipo. Los lugares están limitados por el tiempo de cancha y se confirman en el orden en que llegan los pagos.",
+    s1:"Llena este formulario. Toma unos dos minutos.", s2:"Paga el depósito del equipo o la cuota de agente libre para asegurar tu lugar.", s3:"Te enviamos el kit de bienvenida: opciones de hotel, guía de viaje y formatos de roster. Los agentes libres reciben su equipo antes del 1 de febrero.",
+    team:"Nombre del equipo", city:"Ciudad", country:"País", contact:"Nombre de contacto", email:"Correo", phone:"Teléfono o WhatsApp", optional:"(opcional)",
+    roster:"Tamaño del roster (hasta 20)", level:"Nivel del equipo", lvlComp:"Competitivo", lvlInt:"Intermedio", lvlRec:"Recreativo",
+    hotel:"¿Les interesa el paquete de hotel?", yes:"Sí", maybe:"Tal vez", no:"No, reservamos por nuestra cuenta",
+    heard:"¿Cómo te enteraste?", notes:"¿Algo que debamos saber?",
+    terms:"Entiendo que el depósito no es reembolsable y que nuestro lugar se confirma al pagarlo.",
+    errReq:"Completa este campo para continuar.", errEmail:"Escribe un correo como nombre@ejemplo.com.", errRoster:"Escribe un número entre 10 y 20.", errTerms:"Marca esta casilla para inscribirte.",
+    submit:"Inscribir equipo", sending:"Enviando…", fixErrors:"Revisa los campos marcados.",
+    sendFail:"Tu inscripción no se envió. Revisa tu conexión e inténtalo de nuevo.",
+    doneTitle:"Inscripción recibida", doneBody:"{team} ya está en la lista. Paga tu depósito para asegurar tu lugar.",
+    payBtn:"Pagar depósito", payLater:"Te enviaremos el enlace de pago en menos de 48 horas.",
+    previewNote:"Modo de vista previa: las inscripciones todavía no se envían.", emailUs:"Envíanos esta inscripción por correo",
+    trTitle:"Cómo llegar", tr1t:"Vuela a MEX", tr1:"El Aeropuerto Internacional de la Ciudad de México (MEX) tiene vuelos directos desde las principales ciudades de EE. UU. y Canadá. Llega el viernes, regresa el lunes.",
+    tr2t:"Pasaportes y visas", tr2:"Los pasaportes de EE. UU. y Canadá no requieren visa. Otras nacionalidades deben revisar con tiempo; enviamos cartas de invitación oficiales si las necesitas.",
+    tr3t:"Bloque de hotel", tr3:"Estamos negociando una tarifa grupal cerca de las canchas. Los equipos inscritos reciben los detalles primero.",
+    tr4t:"Qué empacar", tr4:"Bloqueador, una chamarra ligera para las mañanas frescas y algo bueno para la fiesta de clausura.",
+    faqTitle:"Preguntas", q1:"¿Dónde se juega?", a1:"En la Ciudad de México. La sede se anuncia antes de la fecha de preventa y los equipos inscritos se enteran primero.",
+    q2:"¿Pueden jugadores de distintos clubes formar un equipo?", a2:"Sí. Los equipos mixtos y de exalumnos son bienvenidos. Un contacto inscribe y administra el roster.",
+    q3:"¿Hay seguro?", a3:"Cada jugador firma una responsiva. Los equipos deben contar con su propio seguro de responsabilidad; escríbenos si necesitas ayuda.",
+    q4:"¿Es segura la Ciudad de México para equipos visitantes?", a4:"Las zonas donde los equipos se hospedan y juegan reciben visitantes todo el año. Nuestra guía de viaje cubre transporte, dinero y zonas para disfrutar."
+  }
+};
+
+let lang = "en";
+try { const s = localStorage.getItem("ca-lang"); if (s === "es" || s === "en") lang = s; } catch(e) {}
+function t(k){ return (T[lang] && T[lang][k]) || T.en[k] || ""; }
+
+let doneData = null;
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll("[data-fee]").forEach(el => { el.textContent = CONFIG[el.dataset.fee] || t("feeTBA"); });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+  syncSound();
+  if (doneData) renderDone(doneData);
+}
+document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => {
+  lang = b.dataset.lang; try { localStorage.setItem("ca-lang", lang); } catch(e) {}
+  applyLang();
+}));
+
+// hero video + sound
+const vid = document.getElementById("heroVideo");
+const soundBtn = document.getElementById("soundBtn");
+function syncSound(){
+  const on = !vid.muted;
+  soundBtn.setAttribute("aria-pressed", String(on));
+  document.getElementById("soundIcon").textContent = on ? "🔊" : "🔇";
+  document.getElementById("soundLabel").textContent = t(on ? "soundOff" : "soundOn");
+}
+soundBtn.addEventListener("click", () => {
+  vid.muted = !vid.muted;
+  if (!vid.muted) { vid.play().catch(() => {}); }
+  syncSound();
+});
+if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  vid.removeAttribute("autoplay"); vid.pause();
+  soundBtn.addEventListener("click", () => vid.play().catch(() => {}), { once:true });
+}
+
+// footer contact
+(function(){
+  const line = document.getElementById("contactLine");
+  const parts = [];
+  if (CONFIG.contactEmail) parts.push(`<a href="mailto:${CONFIG.contactEmail}">${CONFIG.contactEmail}</a>`);
+  if (CONFIG.instagram) parts.push(`<a href="https://instagram.com/${CONFIG.instagram}" target="_blank" rel="noopener">@${CONFIG.instagram}</a>`);
+  line.innerHTML = parts.join("&nbsp;&nbsp;&nbsp;");
+})();
+
+// form
+const formEl = document.getElementById("form");
+const msg = document.getElementById("formMsg");
+const btn = document.getElementById("submit");
+const btnHTML = btn.innerHTML;
+function field(n){ return formEl.querySelector(`[name="${n}"]`); }
+function mark(id, bad){ document.getElementById(id).classList.toggle("bad", bad); }
+let mode = "team";
+const pageStart = Date.now();
+function setMode(m){
+  mode = m;
+  formEl.dataset.mode = m;
+  document.querySelectorAll("[data-mode-btn]").forEach(b => b.setAttribute("aria-checked", String(b.dataset.modeBtn === m)));
+  formEl.querySelectorAll("label.bad").forEach(l => l.classList.remove("bad"));
+  msg.textContent = "";
+}
+document.querySelectorAll("[data-mode-btn]").forEach(b => {
+  b.addEventListener("click", () => setMode(b.dataset.modeBtn));
+  b.addEventListener("keydown", e => {
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") { e.preventDefault(); const next = mode === "team" ? "agent" : "team"; setMode(next); document.querySelector(`[data-mode-btn="${next}"]`).focus(); }
+  });
+});
+document.querySelectorAll("[data-go-mode]").forEach(a => a.addEventListener("click", () => setMode(a.dataset.goMode)));
+function validate(){
+  let ok = true;
+  const req = mode === "team" ? ["team","city","country","contact"] : ["city","country","contact"];
+  req.forEach(n => { const bad = !field(n).value.trim(); mark("l-"+n, bad); if (bad) ok = false; });
+  const em = field("email").value.trim(); const badEm = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em); mark("l-email", badEm); if (badEm) ok = false;
+  if (mode === "team") { const r = Number(field("roster").value); const badR = !(r >= 10 && r <= 20); mark("l-roster", badR); if (badR) ok = false; }
+  else { const badP = !field("position").value; mark("l-position", badP); if (badP) ok = false; }
+  const badT = !field("terms").checked; mark("l-terms", badT); if (badT) ok = false;
+  return ok;
+}
+formEl.addEventListener("input", e => { const l = e.target.closest("label"); if (l) l.classList.remove("bad"); });
+function collect(){
+  const d = { registrationType: mode === "team" ? "full team" : "free agent" };
+  formEl.querySelectorAll("input,select,textarea").forEach(el => {
+    const only = el.closest("[data-only]");
+    if (only && only.dataset.only !== mode) return;
+    d[el.name] = el.type === "checkbox" ? el.checked : el.value.trim();
+  });
+  d.language = lang; d.submittedAt = new Date().toISOString(); d.elapsedMs = Date.now() - pageStart;
+  return d;
+}
+function esc(s){ const div = document.createElement("div"); div.textContent = s; return div.innerHTML; }
+function renderDone(d){
+  const panel = document.getElementById("panel");
+  const agent = d.registrationType === "free agent";
+  const body = agent ? t("doneAgentBody").replace("{name}", d.contact) : t("doneBody").replace("{team}", d.team);
+  const link = agent ? CONFIG.paymentLinkFreeAgent : CONFIG.paymentLink;
+  let html = `<div class="done"><h3>${esc(t("doneTitle"))}</h3><p>${esc(body)}</p>`;
+  html += link
+    ? `<a class="btn" href="${link}" target="_blank" rel="noopener">${esc(t(agent ? "payAgentBtn" : "payBtn"))}</a>`
+    : `<p class="note">${esc(t("payLater"))}</p>`;
+  if (!CONFIG.formEndpoint) {
+    html += `<p class="note">${esc(t("previewNote"))}</p>`;
+    if (CONFIG.contactEmail) {
+      const txt = Object.entries(d).map(([k,v]) => `${k}: ${v}`).join("\n");
+      const subj = "Copa Azteca 2027: " + (agent ? "Free agent " + d.contact : d.team);
+      html += `<p><a href="mailto:${CONFIG.contactEmail}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(txt)}">${esc(t("emailUs"))}</a></p>`;
+    }
+  }
+  html += `</div>`;
+  panel.innerHTML = html;
+}
+btn.addEventListener("click", async () => {
+  msg.textContent = "";
+  if (!validate()) { msg.textContent = t("fixErrors"); const first = formEl.querySelector("label.bad input, label.bad select"); if (first) first.focus(); return; }
+  const d = collect();
+  if (CONFIG.formEndpoint) {
+    btn.disabled = true; btn.textContent = t("sending");
+    try {
+      const r = await fetch(CONFIG.formEndpoint, { method:"POST", headers:{ "Content-Type":"application/json", "Accept":"application/json" }, body: JSON.stringify(d) });
+      if (!r.ok) throw new Error("bad status");
+    } catch (e) {
+      btn.disabled = false; btn.innerHTML = btnHTML; applyLang(); msg.textContent = t("sendFail"); return;
+    }
+  }
+  doneData = d; renderDone(d);
+  document.getElementById("register").scrollIntoView({ block:"start" });
+});
+
+applyLang();
+</script>
+</body>
+</html>
