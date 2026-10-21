@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Copa Azteca 2027 · Field lacrosse in Mexico City</title>
 <meta name="description" content="Mexico's largest lacrosse tournament of the year. Men's field lacrosse in Mexico City, February 13–14, 2027, with teams from the US, Canada, Colombia, Mexico and more.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥍</text></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Copa Azteca 2027 · Mexico City · Feb 13–14">
 <meta property="og:description" content="Mexico's largest lacrosse tournament of the year. Teams from the US, Canada, Colombia, Mexico and more. Register a team or sign up as a free agent.">
@@ -57,7 +59,12 @@ a{color:var(--accent)}
 /* header */
 .site-head{position:sticky;top:0;z-index:20;background:var(--obsidian);border-bottom:3px solid var(--gold)}
 .site-head .wrap{display:flex;align-items:center;gap:1.4rem;min-height:62px}
-.mark{font-family:var(--mark);font-weight:900;font-size:1.1rem;letter-spacing:.08em;color:var(--gold);text-decoration:none;white-space:nowrap}
+.mark{font-family:var(--mark);font-weight:900;font-size:1.1rem;letter-spacing:.08em;color:var(--gold);text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:.55rem}
+.mark img{width:38px;height:38px}
+.hero-grid{display:grid;grid-template-columns:auto 1fr;gap:clamp(1.5rem,4vw,3.5rem);align-items:center}
+.hero-badge{height:clamp(170px,22vw,290px);width:auto;filter:drop-shadow(0 8px 24px rgba(0,0,0,.55))}
+@media (max-width:760px){.hero-grid{grid-template-columns:1fr;gap:1rem}.hero-badge{height:150px}}
+.foot-badge{height:120px;width:auto}
 .nav{display:flex;gap:1.3rem;margin-left:auto}
 .nav a{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--bone);text-decoration:none;font-size:1rem}
 .nav a:hover{color:var(--gold-light)}
@@ -249,7 +256,7 @@ footer .mark{font-size:1.4rem}
 
 <header class="site-head">
   <div class="wrap">
-    <a class="mark" href="#top">COPA AZTECA</a>
+    <a class="mark" href="#top"><img src="/favicon-192.png" alt="" width="38" height="38">COPA AZTECA</a>
     <nav class="nav" aria-label="Sections">
       <a href="#tournament" data-i18n="navTournament">Tournament</a>
       <a href="#city" data-i18n="navCity">Mexico City</a>
@@ -272,7 +279,9 @@ footer .mark{font-size:1.4rem}
     <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="/poster1080.jpg" aria-label="Highlights from Copa Azteca 2023">
       <source src="/hero1080.mp4" type="video/mp4">
     </video>
-    <div class="wrap">
+    <div class="wrap hero-grid">
+      <img class="hero-badge" src="/copa-azteca-logo-2027.png" alt="Copa Azteca Lacrosse 2027 logo" width="541" height="600">
+      <div>
       <p class="kicker" data-i18n="kicker">Mexico's largest lacrosse tournament</p>
       <h1>Copa Azteca 2027</h1>
       <p class="when" data-i18n="when">February 13–14, 2027 · Mexico City</p>
@@ -281,6 +290,7 @@ footer .mark{font-size:1.4rem}
         <a class="btn" href="#register" data-i18n="ctaHero">Register your team</a>
         <a class="hero-alt" href="#register" data-go-mode="agent" data-i18n="heroAgent">No team? Sign up as a free agent</a>
         <button type="button" class="btn line sound" id="soundBtn" aria-pressed="false"><span id="soundIcon" aria-hidden="true">🔇</span><span id="soundLabel" data-i18n="soundOn">Sound on</span></button>
+      </div>
       </div>
     </div>
   </section>
@@ -533,7 +543,7 @@ footer .mark{font-size:1.4rem}
 <footer>
   <div class="wrap">
     <div class="top">
-      <span class="mark">COPA AZTECA 2027</span>
+      <img class="foot-badge" src="/copa-azteca-logo-2027.png" alt="Copa Azteca Lacrosse 2027" width="541" height="600">
       <span id="contactLine"></span>
       <a class="btn" href="#register" data-i18n="ctaHero">Register your team</a>
     </div>
